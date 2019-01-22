@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* header */
+.header {
+    font-family: DK crayon crumble;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(230, 209, 179);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header h1 {
+    font-family: DK lemon yellow sun;
+    font-size: 50px;
+}
+
+/* top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.topnav ul{
+    list-style-type: none; /*menghilangkan bullet pada list*/
+    overflow: hidden;/*menghilangkan scroll bar*/
+    padding: 0;/*jarak antara border dengan konten (jarak dalam)*/
+    margin: 0;/*jarak antara tiap elemen (jarak luar)*/
+  }
+
+  div.topnav li{
+    float: right;/*posisi elemen sebelah kanan*/
+  }
+
+/* topnav links */
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* color on hover */
+.topnav a:hover {
+    border-top: 2px solid #ddd;
+    color: white;
+}
+
+/* left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+
+/*add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.satu h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.dua h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.tiga h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.empat h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.lima h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.enam h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.tujuh h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.delapan h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.sembilan h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.sepuluh h3 {
+    font-family: Girls have many secrets;
+    background-color: rgb(230, 209, 179);
+    padding: 10px;
+}
+
+.leftcolumn .card h2 {
+    font-family: DK lemon yellow sun;
+}
+
+.rightcolumn .card h3 {
+    font-family: DK lemon yellow sun;
+}
+
+
+/* clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card a {
+    font-family: DK crayon crumble;
+}
+
+/* footer */
+.footer {
+    overflow: hidden;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;   
+    margin-top: 20px;
+}
+
+/* footer */
+.footer {
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;   
+    margin-top: 20px;
+}
+
+.footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* responsive layout */
+@media screen and (max-width: 800px){
+    .leftcolumn, .rightcolumn {
+        width: 1005;
+        padding: 0;
+    }
+}
+
+/* responsive layout */
+@ media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
